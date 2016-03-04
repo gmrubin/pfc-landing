@@ -5,10 +5,34 @@
    ========================================================================== */
 
 
+   html, body {
+   	max-width: 100%;
+   	overflow-x: hidden;
+   }
 
+   body{
+   	background-color: #ebebe0;
+   }
 
+   img {
+   	max-width:100%;
+   }   
 
-
+   hr{
+   	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+   }
+   h1 {
+   	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+   	letter-spacing: 6px;
+    font-size: 30px;
+    text-align: center;
+   }
 
 
 
