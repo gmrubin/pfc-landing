@@ -36,13 +36,45 @@ h2{
 	letter-spacing: 2px;
 	font-size: 17px;
 	text-align: center;
-	margin-top:10px;
+	margin-top:27px;
+	margin-bottom:10px;
+}
+
+h3{
+	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+	letter-spacing: 2px;
+	font-size: 15px;
+	text-align: center;
+	margin-top:27px;
 	margin-bottom:10px;
 }
 
 #locations{
-	margin-top:45px;
+	margin-top:20px;
 }
 
+#contact{
+	letter-spacing:1px;
+}
 
+#people{
+	letter-spacing: 0px;
+	line-height:31px;
+}	
+
+@media (max-width:2560px){
+	#comingsoonrow{
+		margin-top:-33px;
+	}
+}
+
+@media(max-width:585px){
+	.rwd-line {
+		display:block;
+	}
+
+	#comingsoonrow{
+		margin-top:6px;
+	}
+}
 
