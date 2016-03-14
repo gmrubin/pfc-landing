@@ -68,6 +68,12 @@ h3{
 	}
 }
 
+@media(max-width:900px){
+	#comingsoonrow{
+		margin-top:-15px;
+	}
+}
+
 @media(max-width:585px){
 	.rwd-line {
 		display:block;
